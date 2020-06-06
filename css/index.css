@@ -1,0 +1,89 @@
+@import 'norma.css';
+.container {
+  width: 1200px;
+  /* background-color: #f00; */
+  margin: 0 auto;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.clearfix {
+  content: "";
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+.logo {
+  margin-top: 30px;
+}
+.logo h1 img {
+  display: block;
+}
+.header {
+  line-height: 22px;
+  margin-top: 8px;
+}
+.header-title {
+  float: left;
+}
+.header-title-shu {
+  display: block;
+  float: left;
+  width: 1px;
+  height: 10px;
+  background-color: #666666;
+  margin: 6px 10px;
+}
+.header-title-ch {
+  position: relative;
+  float: left;
+  display: block;
+  width: 53px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  background-color: #ececec;
+}
+.header-title-ch:hover .title {
+  display: block;
+}
+.header-title-ch:hover .title > a:nth-child(2n) {
+  background-color: #ff0000;
+}
+.title {
+  display: none;
+  position: absolute;
+  left: -40px;
+}
+.title a {
+  display: block;
+  width: 95px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #ececec;
+}
+.nav > li {
+  float: left;
+}
+.nav li a {
+  display: block;
+  width: 88px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #eee;
+  text-align: center;
+  font-size: 16px;
+}
+.navbar {
+  display: none;
+  margin-top: 10px;
+}
+.nav li:hover .navbar {
+  display: block;
+}
+.nav li .navbar > li:hover a:nth-child(2n) {
+  background-color: #f00;
+}
